@@ -28,7 +28,7 @@
       <label class="col-md-3 control-label" >产品规格: </label>
       <input type="text" class="form-control" >
       <label class="col-md-3 control-label" >是否特殊订单: </label>
-      <input type="radio" class="form-control" >
+      <input type="checkbox" class="form-control" >
     </div>
     <div class="form-group">
       <label class="col-md-3 control-label" >配比号: </label>
@@ -78,7 +78,7 @@
         <option value="0">临安公司</option>
       </select>
       <label class="col-md-3 control-label" >出口: </label>
-      <input type="radio" class="form-control" >
+      <input type="checkbox" class="form-control" >
     </div>
     <div class="form-group">
       <label class="col-md-3 control-label" >标签要求: </label>
