@@ -7,9 +7,6 @@
       <label class="col-md-3 control-label" >客户订单号: </label>
       <label class="col-md-3 control-label" >客户物料号: </label>
       <label class="col-md-3 control-label" >订单类型: </label>
-      <select class="form-control">
-        <option value="0"></option>
-      </select>
     </div>
     <div >
       <label class="col-md-3 control-label" >产品内控参数: </label>
