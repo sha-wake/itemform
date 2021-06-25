@@ -22,7 +22,7 @@
         <el-input v-model="custMat" readonly="true" class="input-width-short" ></el-input>
       </div>
       <div class="div-bind">
-        <label >&emsp;&emsp;订单类型: </label>
+        <label >&emsp;&emsp;&emsp;&emsp;订单类型: </label>
         <el-input v-model="orderType" readonly="true" class="input-width-short" ></el-input>
       </div>
     </div>
@@ -48,7 +48,7 @@
         <el-input v-model="proStand" readonly="true" class="input-width-short" ></el-input>
       </div>
       <div class="div-bind-6">
-        <label class="lab2">是否特殊订单: </label>
+        <label class="lab2">&emsp; 是否特殊订单: </label>
         <el-checkbox v-model="isSpecial" disabled></el-checkbox>
       </div>
     </div>
@@ -74,7 +74,7 @@
         <el-input v-model="embossType" readonly="true" class="input-width-short" ></el-input>
       </div>
       <div class="div-bind">
-        <label >&emsp;&emsp;切边类型: </label>
+        <label >&emsp;&emsp;&emsp;&emsp;切边类型: </label>
         <el-input v-model="cutType" readonly="true" class="input-width-short" ></el-input>
       </div>
     </div>
@@ -100,7 +100,7 @@
         <el-input v-model="jdNumber" readonly="true" class="input-width-short" ></el-input>
       </div>
       <div class="div-bind">
-        <label >每个补充米数: </label>
+        <label >每个缺陷补充米数: </label>
         <el-input v-model="persupply" readonly="true" class="input-width-short" ></el-input>
       </div>
     </div>
@@ -126,7 +126,7 @@
         <el-input v-model="proArea" readonly="true" class="input-width-short" ></el-input>
       </div>
       <div class="div-bind-6">
-        <label class="lab2">&emsp;&emsp;&emsp;&emsp;出口: </label>
+        <label class="lab2">&emsp;&emsp;&emsp;&emsp;&emsp;出口: </label>
         <el-checkbox v-model="isExport" disabled></el-checkbox>
       </div>
     </div>
@@ -173,7 +173,6 @@
         <label class="lab">&emsp;&emsp;&emsp;托: </label>
         <el-input v-model="pallet" readonly="true" class="input-width-medium" ></el-input>
       </div>
-
     </div>
     <div class="div-out">
       <div class="div-bind-large">
@@ -247,7 +246,6 @@
         <label class="lab">制单时间: </label>
         <el-input v-model="madeTime" readonly="true" class="input-width-quarter" ></el-input>
       </div>
-
     </div>
   </form>
 </template>
@@ -278,35 +276,35 @@ a {
   color: #42b983;
 }
 .input-width-short{
-  width: 50%;
-  height: 50px;
-  margin-top: 3%;
-  margin-left: 2px;
+  width: 30%;
+  height: 50%;
+  margin-top: 5%;
 }
 .input-width-medium{
   width: 70%;
   height: 50px;
   margin-top: 1%;
-  margin-right: 1%;
+  margin-left: 3%;
 }
 .input-width-quarter{
-  width: 65%;
-  height: 50px;
-  margin-top: 3%;
-  margin-right: 1%;
+  width: 50%;
+  height: 50%;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-bottom: 1%;
 }
 .div-bind{
-  width: 16%;
-  border:2px solid #ccc;
+  width: 15%;
+  border:1px solid #ccc;
   float: left;
   box-sizing: border-box;
   height: 60px;
 }
 .div-bind-2{
   margin-top: 1.5%;
-  margin-bottom: 1%;
-  margin-left: 5%;
-  width: 5%;
+  margin-bottom: 1.5%;
+  margin-left: 6%;
+  width: 3%;
   float: left;
 }
 .div-bind-3{
@@ -314,22 +312,22 @@ a {
   float: left;
 }
 .div-bind-4{
-  width: 48%;
-  border:2px solid #ccc;
+  width: 45%;
+  border:1px solid #ccc;
   float: left;
   box-sizing: border-box;
   text-align: left;
 }
 .div-bind-5{
-  width: 24%;
-  border:2px solid #ccc;
+  width: 22.5%;
+  border:1px solid #ccc;
   float: left;
   box-sizing: border-box;
   text-align: left;
 }
 .div-bind-6{
-  width: 16%;
-  border:2px solid #ccc;
+  width: 15%;
+  border:1px solid #ccc;
   float: left;
   box-sizing: border-box;
   height: 60px;
@@ -337,13 +335,14 @@ a {
   line-height: 60px;
 }
 .div-bind-large{
-  width: 96%;
-  border:2px solid #ccc;
+  width: 90%;
+  border:1px solid #ccc;
   float: left;
   box-sizing: border-box;
 }
 .div-out{
-  margin-left: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .text-mar{
   margin-bottom: 10px;
@@ -354,14 +353,13 @@ a {
 .lab{
   margin-left: 7%;
   margin-top: 1%;
-  padding-right: 2%;
 }
 .lab2{
-  margin-left: 8%;
-  padding-right: 5%;
+  margin-left: 10%;
+  padding-right: 10%;
 }
 label{
-  font-size: 15px;
+  font-size: 8px;
   font-weight: bold;
 }
 </style>
