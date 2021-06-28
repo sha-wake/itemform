@@ -463,7 +463,7 @@ a {
 .div-bind-8{
   width: 50%;
   float: left;
-  margin-top: 3%;
+  margin-top: 2.5%;
 }
 .div-bind-9{
   width: 30%;
