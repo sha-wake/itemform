@@ -422,7 +422,7 @@ a {
   border:1px solid #ccc;
   float: left;
   box-sizing: border-box;
-  height: 60px;
+  height: 50px;
 }
 .div-bind-2{
   margin-top: 2%;
@@ -454,27 +454,27 @@ a {
   border:1px solid #ccc;
   float: left;
   box-sizing: border-box;
-  height: 60px;
+  height: 50px;
 }
 .div-bind-7{
   width: 45%;
   float: left;
-  margin-top: 6%;
+  margin-top: 5%;
 }
 .div-bind-8{
   width: 50%;
   float: left;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .div-bind-9{
   width: 30%;
   float: left;
-  margin-top: 10%;
+  margin-top: 9%;
 }
 .div-bind-10{
   width: 45%;
   float: left;
-  margin-top: 10%;
+  margin-top: 9%;
 }
 .div-bind-large{
   width: 90%;
