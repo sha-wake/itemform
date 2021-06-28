@@ -94,8 +94,6 @@
         </div>
       </div>
       <div class="div-bind-6">
-<!--        <label class="lab2">&emsp; 是否特殊订单: </label>-->
-<!--        <el-checkbox v-model="isSpecial" disabled></el-checkbox>-->
         <div class="div-bind-7">
           <label >&emsp;是否特&ensp;<br>&emsp;殊订单:</label>
         </div >
@@ -261,7 +259,7 @@
             <label >标签要求:</label>
           </div>
           <div class="div-bind-3">
-            <el-input type="textarea" v-model="tagReq" :rows="2" readonly class="text-mar"></el-input>
+            <el-input type="textarea" v-model="tagReq" :rows="1" readonly class="text-mar"></el-input>
           </div>
         </div>
       </div>
@@ -305,7 +303,7 @@
             <label >销售备注:</label>
           </div>
           <div class="div-bind-3">
-            <el-input type="textarea" v-model="saleRemark" :rows="2" readonly class="text-mar"></el-input>
+            <el-input type="textarea" v-model="saleRemark" :rows="1" readonly class="text-mar"></el-input>
           </div>
         </div>
       </div>
@@ -317,7 +315,7 @@
             <label >内控备注:</label>
           </div>
           <div class="div-bind-3">
-            <el-input type="textarea" v-model="conRemark" :rows="2" readonly class="text-mar"></el-input>
+            <el-input type="textarea" v-model="conRemark" :rows="1" readonly class="text-mar"></el-input>
           </div>
         </div>
       </div>
@@ -329,7 +327,7 @@
             <label >审核意见:</label>
           </div>
           <div class="div-bind-3">
-            <el-input type="textarea" v-model="checkSug" :rows="2" readonly class="text-mar"></el-input>
+            <el-input type="textarea" v-model="checkSug" :rows="1" readonly class="text-mar"></el-input>
           </div>
         </div>
       </div>
@@ -425,7 +423,7 @@ a {
   height: 50px;
 }
 .div-bind-2{
-  margin-top: 2%;
+  margin-top: 1.7%;
   margin-bottom: 1.5%;
   margin-left: 5%;
   width: 10%;
@@ -434,6 +432,7 @@ a {
 .div-bind-3{
   width: 80%;
   float: left;
+  height: 30%;
 }
 .div-bind-4{
   width: 45%;
@@ -459,7 +458,7 @@ a {
 .div-bind-7{
   width: 45%;
   float: left;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .div-bind-8{
   width: 50%;
@@ -469,12 +468,13 @@ a {
 .div-bind-9{
   width: 30%;
   float: left;
-  margin-top: 9%;
+  margin-top: 8%;
+  margin-left: 10%;
 }
 .div-bind-10{
   width: 45%;
   float: left;
-  margin-top: 9%;
+  margin-top: 8%;
 }
 .div-bind-large{
   width: 90%;
