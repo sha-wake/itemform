@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="div-out">
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-7">
           <label >&emsp;产品内&ensp;<br>&emsp;控参数:</label>
         </div >
@@ -59,7 +59,7 @@
           <el-input v-model="proPara" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-7">
           <label >&emsp;产品要&ensp;<br>&emsp;求代码:</label>
         </div >
@@ -67,7 +67,7 @@
           <el-input v-model="proCode" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-10">
           <label >产品类型:</label>
         </div >
@@ -75,7 +75,7 @@
           <el-input v-model="proType" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-10">
           <label >&emsp;&emsp;型号:</label>
         </div >
@@ -83,7 +83,7 @@
           <el-input v-model="mtype" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-10">
           <label >&emsp;&emsp;产品:</label>
         </div >
@@ -91,12 +91,12 @@
           <el-input v-model="proStand" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
-      <div class="div-bind-6">
+      <div class="div-bind-6-v">
         <div class="div-bind-7">
           <label >&emsp;是否特&ensp;<br>&emsp;殊订单:</label>
         </div >
         <div class="div-bind-9">
-          <el-checkbox v-model="isSpecial"  disabled></el-checkbox>
+          <el-checkbox v-model="isSpecial"  disabled ></el-checkbox>
         </div>
       </div>
     </div>
@@ -151,7 +151,7 @@
       </div>
     </div>
     <div class="div-out">
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-10">
           <label >&emsp;&emsp;宽幅:</label>
         </div >
@@ -159,7 +159,7 @@
           <el-input v-model="input" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-10">
           <label >&emsp;中心值:</label>
         </div >
@@ -167,7 +167,7 @@
           <el-input v-model="centerValue" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-10">
           <label >&emsp;接头数:</label>
         </div >
@@ -175,7 +175,7 @@
           <el-input v-model="jointNunber" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-10">
           <label >&emsp;缺陷数:</label>
         </div >
@@ -183,7 +183,7 @@
           <el-input v-model="defectNumber" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-7">
           <label >&ensp;接头和<br>缺陷总数:</label>
         </div >
@@ -191,7 +191,7 @@
           <el-input v-model="jdNumber" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
-      <div class="div-bind">
+      <div class="div-bind-v">
         <div class="div-bind-7">
           <label >每个缺陷<br>补充米数:</label>
         </div >
@@ -251,7 +251,7 @@
       </div>
     </div>
     <div class="div-out">
-      <div class="div-bind-large">
+      <div class="div-bind-large-v">
         <div >
           <div class="div-bind-2">
             <label >标签要求:</label>
@@ -273,11 +273,11 @@
       </div>
     </div>
     <div class="div-out">
-      <div class="div-bind-4">
+      <div class="div-bind-4-v">
         <label class="lab">&emsp;&emsp;辅料: </label>
         <el-input v-model="subMaterial" readonly="true" class="input-width-medium" size="small"></el-input>
       </div>
-      <div class="div-bind-4">
+      <div class="div-bind-4-v">
         <label class="lab">装车要求: </label>
         <el-input v-model="loadReq" readonly="true" class="input-width-medium" size="small"></el-input>
       </div>
@@ -293,7 +293,7 @@
       </div>
     </div>
     <div class="div-out">
-      <div class="div-bind-large">
+      <div class="div-bind-large-v">
         <div >
           <div class="div-bind-2">
             <label >销售备注:</label>
@@ -317,7 +317,7 @@
       </div>
     </div>
     <div class="div-out">
-      <div class="div-bind-large">
+      <div class="div-bind-large-v">
         <div >
           <div class="div-bind-2">
             <label >审核意见:</label>
@@ -348,19 +348,19 @@
 
     </div>
     <div class="div-out">
-      <div class="div-bind-5">
+      <div class="div-bind-5-v">
         <label class="lab2">批次代码: </label>
         <el-input v-model="batchCode" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
-      <div class="div-bind-5">
+      <div class="div-bind-5-v">
         <label class="lab2">批次流水号: </label>
         <el-input v-model="batchSerial" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
-      <div class="div-bind-5">
+      <div class="div-bind-5-v">
         <label class="lab2">&emsp;交货基地: </label>
         <el-input v-model="delArea" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
-      <div class="div-bind-5">
+      <div class="div-bind-5-v">
         <label class="lab2">制单时间: </label>
         <el-input v-model="madeTime" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
@@ -373,7 +373,8 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String,
-  }
+  },
+
 }
 </script>
 
@@ -419,6 +420,13 @@ a {
   height: 50px;
   background: #F8F9F9;
 }
+.div-bind-v{
+  width: 15%;
+  border:1px solid #c6e2ff;
+  float: left;
+  box-sizing: border-box;
+  height: 50px;
+}
 .div-bind-2{
   margin-top: 1.7%;
   margin-bottom: 1.5%;
@@ -440,6 +448,15 @@ a {
   height: 50px;
   background: #F8F9F9;
 }
+.div-bind-4-v{
+  width: 45%;
+  border:1px solid #c6e2ff;
+  float: left;
+  box-sizing: border-box;
+  text-align: left;
+  height: 50px;
+
+}
 .div-bind-5{
   width: 22.5%;
   border:1px solid #b3d8ff;
@@ -449,6 +466,14 @@ a {
   background: #F8F9F9;
   height: 50px;
 }
+.div-bind-5-v{
+  width: 22.5%;
+  border:1px solid #b3d8ff;
+  float: left;
+  box-sizing: border-box;
+  text-align: left;
+  height: 50px;
+}
 .div-bind-6{
   width: 15%;
   border:1px solid #c6e2ff;
@@ -456,6 +481,13 @@ a {
   box-sizing: border-box;
   height: 50px;
   background: #F8F9F9;
+}
+.div-bind-6-v{
+  width: 15%;
+  border:1px solid #c6e2ff;
+  float: left;
+  box-sizing: border-box;
+  height: 50px;
 }
 .div-bind-7{
   width: 45%;
@@ -484,6 +516,13 @@ a {
   float: left;
   box-sizing: border-box;
   background: #F8F9F9;
+}
+.div-bind-large-v{
+  width: 90%;
+  border:1px solid #c6e2ff;
+  float: left;
+  box-sizing: border-box;
+
 }
 .div-out{
   margin-left: 20%;
