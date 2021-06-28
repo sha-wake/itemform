@@ -6,17 +6,16 @@
             <label >单据编号:</label>
           </div >
           <div class="div-bind-8">
-            <el-input v-model="custCode" readonly="true" class="input-width-short" ></el-input>
+            <el-input v-model="custCode" readonly="true" class="input-width-short" size="small"></el-input>
           </div>
       </div>
       <div class="div-bind">
-<!--        <label >&emsp;&emsp;&emsp;客户代码: </label>-->
-<!--        <el-input v-model="custCode" readonly="true" class="input-width-short" ></el-input>-->
+
         <div class="div-bind-10">
           <label >客户代码:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="custCode" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="custCode" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -24,7 +23,7 @@
           <label >&emsp;&emsp;销售&ensp;<br>&emsp;订单号:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="saleOrder" readonly="true"  class="input-width-short" ></el-input>
+          <el-input v-model="saleOrder" readonly="true"  class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -32,7 +31,7 @@
           <label >&emsp;&emsp;客户&ensp;<br>&emsp;订单号:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="custOrder" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="custOrder" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -40,7 +39,7 @@
           <label >&emsp;&emsp;客户&ensp;<br>&emsp;物料号:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="custMat" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="custMat" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -48,7 +47,7 @@
           <label >订单类型:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="orderType" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="orderType" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
     </div>
@@ -58,7 +57,7 @@
           <label >&emsp;产品内&ensp;<br>&emsp;控参数:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="proPara" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="proPara" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -66,7 +65,7 @@
           <label >&emsp;产品要&ensp;<br>&emsp;求代码:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="proCode" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="proCode" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -74,7 +73,7 @@
           <label >产品类型:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="proType" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="proType" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -82,7 +81,7 @@
           <label >&emsp;&emsp;型号:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="mtype" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="mtype" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -90,7 +89,7 @@
           <label >&emsp;&emsp;产品:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="proStand" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="proStand" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind-6">
@@ -108,7 +107,7 @@
           <label >&emsp;配比号:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="matchID" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="matchID" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -116,7 +115,7 @@
           <label >单位克重<br>&ensp;(g/cm2):</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="perWeight" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="perWeight" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -124,7 +123,7 @@
           <label >&ensp;数量(卷):</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="quantity" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="quantity" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -132,7 +131,7 @@
           <label >原料重量<br>&emsp;&emsp;(/kg):</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="matWeight" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="matWeight" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -140,7 +139,7 @@
           <label >压花类型:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="embossType" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="embossType" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -148,7 +147,7 @@
           <label >切边类型:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="cutType" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="cutType" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
     </div>
@@ -158,7 +157,7 @@
           <label >&emsp;&emsp;宽幅:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="input" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="input" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -166,7 +165,7 @@
           <label >&emsp;中心值:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="centerValue" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="centerValue" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -174,7 +173,7 @@
           <label >&emsp;接头数:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="jointNunber" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="jointNunber" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -182,7 +181,7 @@
           <label >&emsp;缺陷数:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="defectNumber" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="defectNumber" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -190,7 +189,7 @@
           <label >&ensp;接头和<br>缺陷总数:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="jdNumber" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="jdNumber" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -198,7 +197,7 @@
           <label >每个缺陷<br>补充米数:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="persupply" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="persupply" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
     </div>
@@ -208,7 +207,7 @@
           <label >&emsp;接头缺<br>&emsp;陷标识:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="jointDef" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="jointDef" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -216,7 +215,7 @@
           <label >标签颜色:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="tagColor" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="tagColor" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -224,7 +223,7 @@
           <label >标签模板:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="tagModel" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="tagModel" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -232,7 +231,7 @@
           <label >&emsp;标签显<br>&emsp;示克重:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="tagShowWeight" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="tagShowWeight" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind">
@@ -240,7 +239,7 @@
           <label >&emsp;&emsp;产区:</label>
         </div >
         <div class="div-bind-8">
-          <el-input v-model="proArea" readonly="true" class="input-width-short" ></el-input>
+          <el-input v-model="proArea" readonly="true" class="input-width-short" size="small" ></el-input>
         </div>
       </div>
       <div class="div-bind-6">
@@ -267,33 +266,33 @@
     <div class="div-out">
       <div class="div-bind-4">
         <label class="lab">收卷方向: </label>
-        <el-input v-model="wrapupDir" readonly="true" class="input-width-medium" ></el-input>
+        <el-input v-model="wrapupDir" readonly="true" class="input-width-medium" size="small"></el-input>
       </div>
       <div class="div-bind-4">
         <label class="lab">打包方式: </label>
-        <el-input v-model="wrapupWay" readonly="true" class="input-width-medium" ></el-input>
+        <el-input v-model="wrapupWay" readonly="true" class="input-width-medium" size="small"></el-input>
       </div>
 
     </div>
     <div class="div-out">
       <div class="div-bind-4">
         <label class="lab">&emsp;&emsp;辅料: </label>
-        <el-input v-model="subMaterial" readonly="true" class="input-width-medium" ></el-input>
+        <el-input v-model="subMaterial" readonly="true" class="input-width-medium" size="small"></el-input>
       </div>
       <div class="div-bind-4">
         <label class="lab">装车要求: </label>
-        <el-input v-model="loadReq" readonly="true" class="input-width-medium" ></el-input>
+        <el-input v-model="loadReq" readonly="true" class="input-width-medium" size="small"></el-input>
       </div>
 
     </div>
     <div class="div-out">
       <div class="div-bind-4">
         <label class="lab">&emsp;&emsp;&emsp;单: </label>
-        <el-input v-model="dan" readonly="true" class="input-width-medium" ></el-input>
+        <el-input v-model="dan" readonly="true" class="input-width-medium" size="small"></el-input>
       </div>
       <div class="div-bind-4">
         <label class="lab">&emsp;&emsp;&emsp;托: </label>
-        <el-input v-model="pallet" readonly="true" class="input-width-medium" ></el-input>
+        <el-input v-model="pallet" readonly="true" class="input-width-medium" size="small"></el-input>
       </div>
     </div>
     <div class="div-out">
@@ -335,38 +334,38 @@
     <div class="div-out">
       <div class="div-bind-5">
         <label class="lab2">&emsp;手册号: </label>
-        <el-input v-model="manualID" readonly="true" class="input-width-quarter" ></el-input>
+        <el-input v-model="manualID" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
       <div class="div-bind-5">
         <label class="lab2">压花前规格: </label>
-        <el-input v-model="bembossStand" readonly="true" class="input-width-quarter" ></el-input>
+        <el-input v-model="bembossStand" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
       <div class="div-bind-5">
         <label class="lab2">压花后规格: </label>
-        <el-input v-model="aembossStand" readonly="true" class="input-width-quarter" ></el-input>
+        <el-input v-model="aembossStand" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
       <div class="div-bind-5">
         <label class="lab2">&emsp;制单人: </label>
-        <el-input v-model="madeby" readonly="true" class="input-width-quarter" ></el-input>
+        <el-input v-model="madeby" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
 
     </div>
     <div class="div-out">
       <div class="div-bind-5">
         <label class="lab2">批次代码: </label>
-        <el-input v-model="batchCode" readonly="true" class="input-width-quarter" ></el-input>
+        <el-input v-model="batchCode" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
       <div class="div-bind-5">
         <label class="lab2">批次流水号: </label>
-        <el-input v-model="batchSerial" readonly="true" class="input-width-quarter" ></el-input>
+        <el-input v-model="batchSerial" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
       <div class="div-bind-5">
         <label class="lab2">&emsp;交货基地: </label>
-        <el-input v-model="delArea" readonly="true" class="input-width-quarter" ></el-input>
+        <el-input v-model="delArea" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
       <div class="div-bind-5">
         <label class="lab2">制单时间: </label>
-        <el-input v-model="madeTime" readonly="true" class="input-width-quarter" ></el-input>
+        <el-input v-model="madeTime" readonly="true" class="input-width-quarter" size="small" ></el-input>
       </div>
     </div>
   </form>
@@ -405,7 +404,7 @@ a {
 .input-width-medium{
   width: 70%;
   height: 50px;
-  margin-top: 1%;
+  margin-top: 1.5%;
   margin-left: 3%;
 }
 .input-width-quarter{
@@ -440,6 +439,7 @@ a {
   float: left;
   box-sizing: border-box;
   text-align: left;
+  height: 50px;
 }
 .div-bind-5{
   width: 22.5%;
@@ -463,7 +463,7 @@ a {
 .div-bind-8{
   width: 50%;
   float: left;
-  margin-top: 2.5%;
+  margin-top: 5%;
 }
 .div-bind-9{
   width: 30%;
@@ -494,7 +494,7 @@ a {
 }
 .lab{
   margin-left: 7%;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 .lab2{
   margin-left: 10%;
@@ -503,6 +503,5 @@ a {
 label{
   font-size: 8px;
   font-weight: bold;
-
 }
 </style>
