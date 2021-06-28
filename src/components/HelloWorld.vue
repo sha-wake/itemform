@@ -10,7 +10,6 @@
           </div>
       </div>
       <div class="div-bind">
-
         <div class="div-bind-10">
           <label >客户代码:</label>
         </div >
@@ -97,7 +96,7 @@
           <label >&emsp;是否特&ensp;<br>&emsp;殊订单:</label>
         </div >
         <div class="div-bind-9">
-          <el-checkbox v-model="isSpecial" disabled></el-checkbox>
+          <el-checkbox v-model="isSpecial"  disabled></el-checkbox>
         </div>
       </div>
     </div>
@@ -272,7 +271,6 @@
         <label class="lab">打包方式: </label>
         <el-input v-model="wrapupWay" readonly="true" class="input-width-medium" size="small"></el-input>
       </div>
-
     </div>
     <div class="div-out">
       <div class="div-bind-4">
@@ -283,7 +281,6 @@
         <label class="lab">装车要求: </label>
         <el-input v-model="loadReq" readonly="true" class="input-width-medium" size="small"></el-input>
       </div>
-
     </div>
     <div class="div-out">
       <div class="div-bind-4">
@@ -410,16 +407,17 @@ a {
 .input-width-quarter{
   width: 50%;
   height: 50%;
-  margin-top: 1%;
+  margin-top: 3%;
   margin-left: 5%;
   margin-bottom: 1%;
 }
 .div-bind{
   width: 15%;
-  border:1px solid #ccc;
+  border:1px solid #c6e2ff;
   float: left;
   box-sizing: border-box;
   height: 50px;
+  background: #F8F9F9;
 }
 .div-bind-2{
   margin-top: 1.7%;
@@ -435,25 +433,29 @@ a {
 }
 .div-bind-4{
   width: 45%;
-  border:1px solid #ccc;
+  border:1px solid #c6e2ff;
   float: left;
   box-sizing: border-box;
   text-align: left;
   height: 50px;
+  background: #F8F9F9;
 }
 .div-bind-5{
   width: 22.5%;
-  border:1px solid #ccc;
+  border:1px solid #b3d8ff;
   float: left;
   box-sizing: border-box;
   text-align: left;
+  background: #F8F9F9;
+  height: 50px;
 }
 .div-bind-6{
   width: 15%;
-  border:1px solid #ccc;
+  border:1px solid #c6e2ff;
   float: left;
   box-sizing: border-box;
   height: 50px;
+  background: #F8F9F9;
 }
 .div-bind-7{
   width: 45%;
@@ -478,9 +480,10 @@ a {
 }
 .div-bind-large{
   width: 90%;
-  border:1px solid #ccc;
+  border:1px solid #c6e2ff;
   float: left;
   box-sizing: border-box;
+  background: #F8F9F9;
 }
 .div-out{
   margin-left: 20%;
@@ -503,5 +506,7 @@ a {
 label{
   font-size: 8px;
   font-weight: bold;
+  color: #53a8ff;
+  /*color: #2D2D2D;*/
 }
 </style>
